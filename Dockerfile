@@ -1,0 +1,4 @@
+FROM openjdk:8
+COPY ./target/SPE_MINI_PROJECT_CALCULATOR-1.0-SNAPSHOT-shaded.jar  ./
+WORKDIR ./
+CMD ["java", "-jar", "SPE_MINI_PROJECT_CALCULATOR-1.0-SNAPSHOT-shaded.jar"]
