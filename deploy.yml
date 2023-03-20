@@ -1,6 +1,6 @@
 ---
 - name: Pull docker image of Calculator
-  hosts: all
+  hosts: localhost
   tasks:
     - name: pull docker image
       shell: docker pull satyaverma27/miniproject
