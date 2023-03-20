@@ -1,0 +1,9 @@
+---
+- name: Pull docker image of Calculator
+  hosts: all
+  tasks:
+    - name: pull docker image
+      shell: docker pull satyaverma27/miniproject
+    - name: running container
+      shell: docker run -it -d satyaverma27/miniproject
+

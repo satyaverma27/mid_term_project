@@ -1,0 +1,1 @@
+client1 ansible_host= 172.17.0.3 ansible_connection=ssh ansible_ssh_user=ansible_usr ansible_shh_pass=12345
