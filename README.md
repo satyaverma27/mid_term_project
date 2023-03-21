@@ -1,1 +1,1 @@
- mid_term_project
+ project
