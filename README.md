@@ -1,1 +1,1 @@
- project SPE.
+mini project SPE.
