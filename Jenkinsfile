@@ -3,9 +3,7 @@ pipeline{
     // Declare variables that will be used by the later stages
     environment {
         img=""
-        //DOCKERHUB_CREDENTIALS= credentials('docker-jenkins')
-        // DOCKERHUB_REGISTRY = "juhisohane/calcspe"
-        // DOCKERHUB_CREDENTIALS = credentials('Juhi@2003')
+     
     }
 
     agent any
