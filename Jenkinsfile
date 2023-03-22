@@ -52,6 +52,13 @@ pipeline{
 
 			}
  		}
+	    stage('Delete Docker image from local repository')
+ 		{
+ 		    steps
+ 		    {
+ 		        sh 'docker rmi satyaverma27/miniproject'
+ 		    }
+ 		}
 	stage('Ansible Deploy') {
             steps {
                // sh 'export ANSIBLE_HOST_KEY_CHECKING=False'
